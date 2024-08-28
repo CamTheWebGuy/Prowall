@@ -58,6 +58,7 @@
     padding: 0 1.5rem;
     background-color: var(--primary);
     color: var(--bodyTextColorWhite);
+    border-radius: 0.25rem;
     display: inline-block;
     position: relative;
     z-index: 1;
@@ -144,6 +145,7 @@
     display: block;
   }
 }
+                                
 /*-- -------------------------- -->
 <---         Services           -->
 <--- -------------------------- -*/
@@ -420,7 +422,6 @@
       min-width: 9.375rem;
       padding: 0 1.5rem;
       background-color: var(--primary);
-      border-radius: 0.25rem;
       display: inline-block;
       position: relative;
       z-index: 1;
@@ -819,9 +820,10 @@
     text-transform: uppercase;
     width: 17.6875rem;
     background-color: var(--primary);
-    color: var(--headerColor);
+    color: #fff;
     border: none;
     transition: color 0.3s;
+    border-radius: 0;
   }
   #contact-401 .cs-submit:hover {
     color: #fff;
