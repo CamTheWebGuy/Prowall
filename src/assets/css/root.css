@@ -1,8 +1,7 @@
 /* CODESTITCH STYLES, RESET, HEADER/NAVIGATION AND FOOTER */
-/*-- -------------------------- -->
-<---        Core Styles         -->
-<--- -------------------------- -*/
-/* CodeStitch Root and Helpers */
+/*-- -------------------------- */
+/*---        Core Styles         */
+/*--- -------------------------- */
 @media only screen and (min-width: 0rem) {
   :root {
     --primary: #F41E1E;
@@ -90,7 +89,6 @@
     display: none;
   }
 }
-/* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
   .cs-hide-on-mobile {
     display: block;
@@ -162,7 +160,7 @@
     font-family: "Roboto";
     font-weight: 400;
     font-display: swap;
-    src: local(""), url("/assets/fonts/roboto-v29-latin-regular.woff2") format("woff2"), url("/assets/fonts/roboto-v29-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: local(""), url("/assets/fonts/roboto-v29-latin-regular.woff2") format("woff2"), url("/assets/fonts/roboto-v29-latin-regular.woff") format("woff");
   }
   /* roboto-700 - latin */
   @font-face {
@@ -170,7 +168,7 @@
     font-family: "Roboto";
     font-weight: 700;
     font-display: swap;
-    src: local(""), url("/assets/fonts/roboto-v29-latin-700.woff2") format("woff2"), url("/assets/fonts/roboto-v29-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: local(""), url("/assets/fonts/roboto-v29-latin-700.woff2") format("woff2"), url("/assets/fonts/roboto-v29-latin-700.woff") format("woff");
   }
   /* roboto-900 - latin */
   @font-face {
@@ -178,7 +176,7 @@
     font-family: "Roboto";
     font-weight: 900;
     font-display: swap;
-    src: local(""), url("/assets/fonts/roboto-v29-latin-900.woff2") format("woff2"), url("/assets/fonts/roboto-v29-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: local(""), url("/assets/fonts/roboto-v29-latin-900.woff2") format("woff2"), url("/assets/fonts/roboto-v29-latin-900.woff") format("woff");
   }
 }
 /* Reset Margins */
@@ -196,10 +194,5 @@
     font-size: 0.55vw;
   }
 }
-
-
-
-
-
 
 /*# sourceMappingURL=root.css.map */

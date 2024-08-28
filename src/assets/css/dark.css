@@ -1,8 +1,7 @@
 /* DARK MODE AND TOGGLE STYLES */
-/*-- -------------------------- -->
-<---      Core Dark Styles      -->
-<--- -------------------------- -*/
-/* Mobile */
+/*-- -------------------------- */
+/*---      Core Dark Styles      */
+/*--- -------------------------- -*/
 @media only screen and (min-width: 0rem) {
   :root {
     --dark: #082032;
@@ -32,5 +31,6 @@
     display: none;
   }
 }
+
 
 /*# sourceMappingURL=dark.css.map */
