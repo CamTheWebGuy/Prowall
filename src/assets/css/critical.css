@@ -718,6 +718,10 @@
     padding: 1.9375rem 0;
     flex: none;
   }
+  #cs-navigation .cs-dropdown-button {
+    border: none;
+    background: none;
+  }
   #cs-navigation .cs-li-link {
     font-size: clamp(0.875rem, 1.3vw, 1rem);
     line-height: 1.5em;

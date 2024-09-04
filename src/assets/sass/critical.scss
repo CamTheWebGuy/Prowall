@@ -855,6 +855,11 @@
       flex: none;
     }
 
+    .cs-dropdown-button{
+      border: none;
+      background: none;
+    }
+
     .cs-li-link {
       font-size: clamp(0.875rem, 1.3vw, 1rem);
       line-height: 1.5em;
