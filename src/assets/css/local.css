@@ -707,7 +707,6 @@ body.dark-mode #reviews-1673 .cs-quote {
   height: 3.5rem;
   padding: 0;
   padding-left: 1.5rem;
-  border-radius: 0.5rem;
   color: var(--headerColor);
   background-color: rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(15px);
@@ -777,7 +776,6 @@ body.dark-mode #reviews-1673 .cs-quote {
   width: 100%;
   /* 16px - 24px */
   padding: clamp(1rem, 2.3vw, 1.5rem);
-  border-radius: 1.5rem;
   background-color: #484848;
   display: flex;
   /* prevents padding from adding to height and width */
@@ -791,8 +789,6 @@ body.dark-mode #reviews-1673 .cs-quote {
   width: 100%;
   /* 300px - 425px */
   height: clamp(18.75rem, 63.4vw, 26.5625rem);
-  border-radius: 1.5rem;
-  /* clips the corners of the img tag */
   overflow: hidden;
   position: relative;
   display: block;
